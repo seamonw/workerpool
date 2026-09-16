@@ -2,7 +2,7 @@
 
 固定大小的 Go 任务池：N 个长期 worker + 有界队列。用来限制**同时在飞的工作数量**，不是用来摊 `go f()` 的创建成本。
 
-配套文章：[goroutine 很轻，所以你更需要任务池](https://seamonw.github.io/blog/2026/09/14/golang-worker-pool/)
+配套文章：[Go 任务池：并发限制、排队与退出](https://seamonw.github.io/blog/2026/09/14/golang-worker-pool/)
 
 ```bash
 go get github.com/seamonw/workerpool
